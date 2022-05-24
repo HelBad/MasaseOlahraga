@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".view.cedera.materi.ActivityPenyebab">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarMateriPenyebab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Penyebab Terjadinya Cedera"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <WebView
+                android:id="@+id/viewMateriPenyebab1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginHorizontal="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="-"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <WebView
+                        android:id="@+id/viewMateriPenyebab2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:ignore="WebViewLayout" />
+
+                    <WebView
+                        android:id="@+id/viewMateriPenyebab3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:ignore="WebViewLayout" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="-"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <WebView
+                        android:id="@+id/viewMateriPenyebab4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:ignore="WebViewLayout" />
+
+                    <WebView
+                        android:id="@+id/viewMateriPenyebab5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:ignore="WebViewLayout" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <WebView
+                android:id="@+id/viewMateriPenyebab6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                tools:ignore="WebViewLayout" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="-"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <WebView
+                    android:id="@+id/viewMateriPenyebab7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="WebViewLayout" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="-"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <WebView
+                    android:id="@+id/viewMateriPenyebab8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="WebViewLayout" />
+            </LinearLayout>
+
+            <WebView
+                android:id="@+id/viewMateriPenyebab9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                tools:ignore="WebViewLayout" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="-"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <WebView
+                        android:id="@+id/viewMateriPenyebab10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:ignore="WebViewLayout" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="1)"
+                            android:textSize="15dp"
+                            android:textColor="@color/gray"
+                            android:textStyle="bold"/>
+
+                        <WebView
+                            android:id="@+id/viewMateriPenyebab11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:ignore="WebViewLayout" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="2)"
+                            android:textSize="15dp"
+                            android:textColor="@color/gray"
+                            android:textStyle="bold"/>
+
+                        <WebView
+                            android:id="@+id/viewMateriPenyebab12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:ignore="WebViewLayout" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="3)"
+                            android:textSize="15dp"
+                            android:textColor="@color/gray"
+                            android:textStyle="bold"/>
+
+                        <WebView
+                            android:id="@+id/viewMateriPenyebab13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:ignore="WebViewLayout" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="4)"
+                            android:textSize="15dp"
+                            android:textColor="@color/gray"
+                            android:textStyle="bold"/>
+
+                        <WebView
+                            android:id="@+id/viewMateriPenyebab14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:ignore="WebViewLayout" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="5)"
+                            android:textSize="15dp"
+                            android:textColor="@color/gray"
+                            android:textStyle="bold"/>
+
+                        <WebView
+                            android:id="@+id/viewMateriPenyebab15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:ignore="WebViewLayout" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="6)"
+                            android:textSize="15dp"
+                            android:textColor="@color/gray"
+                            android:textStyle="bold"/>
+
+                        <WebView
+                            android:id="@+id/viewMateriPenyebab16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:ignore="WebViewLayout" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="7)"
+                            android:textSize="15dp"
+                            android:textColor="@color/gray"
+                            android:textStyle="bold"/>
+
+                        <WebView
+                            android:id="@+id/viewMateriPenyebab17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:ignore="WebViewLayout" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="8)"
+                            android:textSize="15dp"
+                            android:textColor="@color/gray"
+                            android:textStyle="bold"/>
+
+                        <WebView
+                            android:id="@+id/viewMateriPenyebab18"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:ignore="WebViewLayout" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="9)"
+                            android:textSize="15dp"
+                            android:textColor="@color/gray"
+                            android:textStyle="bold"/>
+
+                        <WebView
+                            android:id="@+id/viewMateriPenyebab19"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:ignore="WebViewLayout" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="-"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <WebView
+                        android:id="@+id/viewMateriPenyebab20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:ignore="WebViewLayout" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="1)"
+                            android:textSize="15dp"
+                            android:textColor="@color/gray"
+                            android:textStyle="bold"/>
+
+                        <WebView
+                            android:id="@+id/viewMateriPenyebab21"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:ignore="WebViewLayout" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="2)"
+                            android:textSize="15dp"
+                            android:textColor="@color/gray"
+                            android:textStyle="bold"/>
+
+                        <WebView
+                            android:id="@+id/viewMateriPenyebab22"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:ignore="WebViewLayout" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="3)"
+                            android:textSize="15dp"
+                            android:textColor="@color/gray"
+                            android:textStyle="bold"/>
+
+                        <WebView
+                            android:id="@+id/viewMateriPenyebab23"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:ignore="WebViewLayout" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="4)"
+                            android:textSize="15dp"
+                            android:textColor="@color/gray"
+                            android:textStyle="bold"/>
+
+                        <WebView
+                            android:id="@+id/viewMateriPenyebab24"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:ignore="WebViewLayout" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="5)"
+                            android:textSize="15dp"
+                            android:textColor="@color/gray"
+                            android:textStyle="bold"/>
+
+                        <WebView
+                            android:id="@+id/viewMateriPenyebab25"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:ignore="WebViewLayout" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="6)"
+                            android:textSize="15dp"
+                            android:textColor="@color/gray"
+                            android:textStyle="bold"/>
+
+                        <WebView
+                            android:id="@+id/viewMateriPenyebab26"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:ignore="WebViewLayout" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="7)"
+                            android:textSize="15dp"
+                            android:textColor="@color/gray"
+                            android:textStyle="bold"/>
+
+                        <WebView
+                            android:id="@+id/viewMateriPenyebab27"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:ignore="WebViewLayout" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="8)"
+                            android:textSize="15dp"
+                            android:textColor="@color/gray"
+                            android:textStyle="bold"/>
+
+                        <WebView
+                            android:id="@+id/viewMateriPenyebab28"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:ignore="WebViewLayout" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="-"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <WebView
+                    android:id="@+id/viewMateriPenyebab29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="WebViewLayout" />
+            </LinearLayout>
+
+            <WebView
+                android:id="@+id/viewMateriPenyebab30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginHorizontal="15dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

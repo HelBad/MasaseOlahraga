@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Project/Client/MasaseOlahraga/app/src/main/res/drawable/dec_border.xml" value="0.161" />
+        <entry key="..\:/Project/Client/MasaseOlahraga/app/src/main/res/drawable/dec_gradasi.xml" value="0.1545" />
+        <entry key="..\:/Project/Client/MasaseOlahraga/app/src/main/res/layout/activity_cedera.xml" value="0.2" />
+        <entry key="..\:/Project/Client/MasaseOlahraga/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Project/Client/MasaseOlahraga/app/src/main/res/layout/activity_materi.xml" value="0.25" />
+        <entry key="..\:/Project/Client/MasaseOlahraga/app/src/main/res/layout/activity_materi_jenis.xml" value="0.25" />
+        <entry key="..\:/Project/Client/MasaseOlahraga/app/src/main/res/layout/activity_materi_pencegahan.xml" value="0.25" />
+        <entry key="..\:/Project/Client/MasaseOlahraga/app/src/main/res/layout/activity_materi_penyebab.xml" value="0.25" />
+        <entry key="..\:/Project/Client/MasaseOlahraga/app/src/main/res/layout/activity_materi_pertolongan.xml" value="0.24615384615384617" />
+        <entry key="..\:/Project/Client/MasaseOlahraga/app/src/main/res/layout/activity_materi_pertolongan_1.xml" value="0.24205748865355523" />
+        <entry key="..\:/Project/Client/MasaseOlahraga/app/src/main/res/layout/activity_materi_tingkat.xml" value="0.25" />
+        <entry key="..\:/Project/Client/MasaseOlahraga/app/src/main/res/layout/activity_pertolongan.xml" value="0.25" />
+        <entry key="..\:/Project/Client/MasaseOlahraga/app/src/main/res/layout/activity_profil.xml" value="0.25" />
+        <entry key="..\:/Project/Client/MasaseOlahraga/app/src/main/res/layout/activity_pustaka.xml" value="0.23668639053254437" />
+        <entry key="..\:/Project/Client/MasaseOlahraga/app/src/main/res/layout/activity_teknik.xml" value="0.25" />
+        <entry key="..\:/Project/Client/MasaseOlahraga/app/src/main/res/layout/activity_tulang.xml" value="0.25" />
+        <entry key="..\:/Project/Client/MasaseOlahraga/app/src/main/res/layout/activity_utama.xml" value="0.25" />
+        <entry key="..\:/Project/Client/MasaseOlahraga/app/src/main/res/layout/activity_video.xml" value="0.25" />
+        <entry key="..\:/Project/Client/MasaseOlahraga/app/src/main/res/layout/dec_cedera.xml" value="0.25" />
+        <entry key="..\:/Project/Client/MasaseOlahraga/app/src/main/res/layout/dec_imgslider.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

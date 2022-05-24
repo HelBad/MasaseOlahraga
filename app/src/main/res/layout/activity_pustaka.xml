@@ -1,0 +1,1185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".view.pustaka.ActivityPustaka">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarPustaka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Daftar Pustaka"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[1]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Ali Satia Graha dan Bambang Priyonoadi. (2009). Terapi Masase Frirage. Pelaksanaan cedera pada anggota tubuh bagian atas. Yogyakarta: FIK UNY"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[2]"
+                    android:textColor="@color/gray"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Andun, Sujijandoko. (2000). Perawatan dan Pencegahan Cedera. Yogyakarta: Departemen Pendidikan Nasional"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[3]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Arikunto, S. 2010. Prosedur Penelitian Suatu Pendekatan Praktik. Jakarta: Rineka Cipta"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[4]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Arikunto, Suharsimi. 2014. Prosedur Penelitian Suatu Pendekatan Praktik. Jakarta: Rineka Cipta."
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[5]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Arovah, Intan Novita. 2011. Masase dan Prestasi Atlet. (Online), http://staff.uny.ac.id/sites/default/files/132300162/4.%20Masase%20da n%20Prestasi%20Atlet.pdf, diakses pada 25 Februari 2021"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[6]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Asep Wicaksono. (2013). Persepsi Guru Penjas Sekolah Negeri se-Kecamatan Sewon dalam Penanganan Dini Cedera Olahraga dengan RICE (Rest, Ice, Compress, Elevation). Skripsi. FIK.UNY: Yogyakarta."
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[7]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Bahr, R, dan, I. Holme. 2003. Risk Factors For Sports Injuries A Methodological Approach. British Journal of Sports Medicine"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[8]"
+                    android:textColor="@color/gray"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Basoeki Hadi, Sulistyorini, 2009, Sport Massage Seni Pijat untuk Atlit atau Olahragawa dan Umum. Tingola: Jakarta"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[9]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Best, T. M., R. Hunter, A. Wilcox and F. Haq (2008). Effectiveness Of Sports Massage For Recovery Of Skeletal Muscle From Strenuous Exercise. Clinical Journal of Sport Medicine 18(5): 446."
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[10]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Bompa. (2010). Periodization Training Of Sport. New York: Human Kinetics."
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[11]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Borg, W.R. dan Gall, M.D. Gall. (1983). Educational Research: An Introduction, Fifth Edition. New York: Longman"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[12]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Buhler, Patricia. 2004. Alpa Teach Yourself. Management Skills dalam 24 Jam. Terj. Jakarta: Prenada Media"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[13]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Cafarelli, E. and F. Flint (1992). The role of massage in preparation for and recovery from exercise. Sports Medicine 14(1): 8"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[14]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Callaghan, M. J. (1993). The Role Of Massage In The Management Of The Athlete: A Review. British Medical Journal 27(1): 28."
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[15]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Cerika R. dan Yustinus Sukarmin. (2006). Usaha-usaha Pencegahan Cedera Olahraga pada Pemain Bolabasket. Jurnal Ilmiah Kesehatan Olahraga MEDIKORA.Yogyakarta: FIK UNY."
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[16]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Congeni, J.A. 2004. Health Education. Safety Sydney. The Health Commision Of MSW"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[17]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Giam C.K, dan Teh, K.C. (1993). Ilmu Kedokteran Olahraga (Hartono Satmoko. Terjemahan). Jakarta: Binarupa Aksara Buku asli diterbitkan tahun 1992"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[18]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Goats, G.C. (1994). Massage-The Scientific Basis Of An Ancient Art: Part 1. The Techniques. British Journal Os Sport Medicine, 28(3),149."
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[19]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Hemmings, B., M. Smith, J. Graydon and R. Dyson (2000). Effects Of Massage Onphysiological Restoration, Perceived Recovery, And Repeated Sports Performance. British Journal Of Sports Medicine 34(2): 109."
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[20]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Hemmings, B. J. (2001). Physiological, Psychological And Performance Effects Of Massage Therapy In Sport: A Review Of The Literature. Physical Therapy in Sport 2(4): 165"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[21]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Hilbert, J. E., G. A. Sforzo and T. Swensen (2003). The effects of massage on delayed onset muscle soreness. British Journal of Sports Medicine 37(1): 72."
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[22]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Jelveus and Oddsson.(2011). Integrated Sports Massage Therapy. Los Angeles : USA."
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[23]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Kemendikbud (2020). Surat Edaran Nomor 1 Tahun 2020 tentang Pencegahan Penyebaran Corona Virus Disease (Covid019) Di Perguruan Tinggi, Kementrian Pendidikan dan Kebudayaan."
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[24]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Kristiyanto, Agus. 2012. Pembangunan Olahraga Untuk Kesejahtraan Rakyat Dan Kejayaan Bangsa. Surakarta: Yuma Pustaka"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[25]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Maksum, A. 2007. Kualitas Pribadi Atlet: Kunci Keberhasilan Meraih Prestasi Tinggi. Fakultas Ilmu Keolahragaan Universitas Negeri Surabaya."
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[26]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Martin, N. A., R. F. Zoeller, R. J. Robertson and S. M. Lephart (1998).The Comparative Effects Of Sports Massage, Active Recovery, And Rest In Promoting Blood Lactate Clearance After Supramaximal Leg Exercise. Journal Of Athletic Training 33 (1): 30."
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[27]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Meier, Reto. (2010). Professional Android 2 Application Development. London:Wrox."
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[28]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Moraska, A. (2005). Sports Massage. The Journal Of Sports Medicine And Physical Fitness 45: 370."
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[29]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Mustafa, P.S. 2017. Pembelajaran Pertolongan Pertama dan Pencegahan Perawatan Cedera Olahraga (PP dan PPCO) Berbasis Blended Learning Malang: Pascasarjana Universitas Negeri Malang"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[30]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Naskah Akademik Rancangan Undang–undang (10 Juli Tahun 2020) tentang Sistem Keolahragaan Nasional. Jakarta: Kementerian Negara Pemuda dan Olahraga Republik Indonesia."
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[31]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Nurcahyo, F. (2015). Pencegahan Cedera Dalam Sepak Bola. Medikora, 1, 65–76. https://doi.org/10.21831/medikora.v0i1.4 670"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[32]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Patricia J. Benjamin, Scott P. Lamp (2004). Understanding Sports Massage - 2nd Edition. UK: Human Kinetics"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[33]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Price. (2013). Patofisiologi : konsep klinis proses-proses penyakit. Jakarta : EGC"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[34]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Roepajadi, Joesoef dan Tutur Jatmiko (2014). Masase Olahraga. Surabaya: Universitas Negeri Surabaya"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[35]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Roepajadi, Joesoef. (2015). Masase Olahraga. Surabaya: Universitas Negeri Surabaya"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[36]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Rohman F. 2003. Pelatihan Sport Massage untuk Mencegah Cedera. Makalah disampaikan dalam simposium, lokakarya dan Pelatihan Kedokteran Olahraga Nasional ke II, Surabaya, 29-30 Maret 2003"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[37]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Sa’roni, A. S., dan Graha, A. S. (2019). Efektifitas Masase Terapi Cedera Olahraga Terhadap Nyeri Tumit Dan Nyeri Otot Tibialis Pada Atlet Futsal Sma Negeri 1 Ciamis. Medikora, 18(2), 56–63."
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[38]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Safaat, 2010. Pemrogaman Aplikasi Mobile Smartphone dan Tablet PC Berbasis Android. Bandung: Informatika Bandung."
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[39]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Setiawan, Arif. (2015). Sport Massage (pijat kebugaran). Yogyakarta: panduan pijat praktis untuk menjaga kebugaran dan menghilangkan kelelahan"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[40]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Sugiyono. (2013). Metodologi Penelitian, Kualitatif, Kuantitatif, dan RnD. Bandung: ALFABETA"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[41]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Sugiyono. (2012). Metode penelitian kuantitatif, kualitatif, dan RnD. Bandung: Alfabeta."
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[42]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Sunardi Jaka, Sudibjo Prijo. (2020). Buku Anatomi Manusia. UNY Press"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[43]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Toho Cholik Mutohir, Ali Maksum. (2007). Sport Development Index. Jakarta. PT Indeks"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[44]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Uchio, Y. (2010). Current Status and Prevention of Sports Injuries in Japan: From the orthopedic viewpoint. Japan Medical Association Journal, 53(3), 159–162"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[45]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Widhiyanti, K, A, T. 2018. Cedera Olahraga Pencegahan dan Perawatan. Pustaka Panasea Yogyakarta"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="[46]"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Widowati, H. (2020). Buku Ajar Anatomi. Sidoarjo: UMSIDA Press"
+                    android:textSize="15dp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
