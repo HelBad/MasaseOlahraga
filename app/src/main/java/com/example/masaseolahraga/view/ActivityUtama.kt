@@ -11,10 +11,11 @@ import androidx.viewpager.widget.ViewPager
 import com.example.masaseolahraga.R
 import com.example.masaseolahraga.adapter.ViewpagerImgslider
 import com.example.masaseolahraga.view.cedera.ActivityCedera
-import com.example.masaseolahraga.view.profil.ActivityProfil
-import com.example.masaseolahraga.view.pustaka.ActivityPustaka
+import com.example.masaseolahraga.view.lainnya.ActivityOtot
+import com.example.masaseolahraga.view.lainnya.ActivityProfil
+import com.example.masaseolahraga.view.lainnya.ActivityPustaka
 import com.example.masaseolahraga.view.teknik.ActivityTeknik
-import com.example.masaseolahraga.view.tulang.ActivityTulang
+import com.example.masaseolahraga.view.lainnya.ActivityTulang
 import java.util.*
 
 class ActivityUtama : AppCompatActivity() {
@@ -48,7 +49,11 @@ class ActivityUtama : AppCompatActivity() {
         viewpagerUtama = findViewById(R.id.viewpagerUtama)
 
         updatePage()
-        ototUtama.setOnClickListener {  }
+        ototUtama.setOnClickListener {
+            val intent = Intent(this, ActivityOtot::class.java)
+            startActivity(intent)
+            finish()
+        }
         tulangUtama.setOnClickListener {
             val intent = Intent(this, ActivityTulang::class.java)
             startActivity(intent)

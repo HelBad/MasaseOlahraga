@@ -6,9 +6,9 @@
     android:layout_height="match_parent"
     android:background="@android:color/white"
     android:orientation="vertical"
-    tools:context=".view.lainnya.ActivityTulang">
+    tools:context=".view.lainnya.ActivityOtot">
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbarTulang"
+        android:id="@+id/toolbarOtot"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
@@ -16,7 +16,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Tulang"
+            android:text="Otot"
             android:textColor="@android:color/black"
             android:textSize="18dp"
             android:textStyle="bold" />
@@ -33,7 +33,7 @@
             android:layout_marginHorizontal="15dp"
             android:background="@drawable/dec_border">
             <Spinner
-                android:id="@+id/spinnerTulang"
+                android:id="@+id/spinnerOtot"
                 android:layout_width="match_parent"
                 android:layout_height="25dp"
                 android:layout_centerVertical="true"
@@ -42,7 +42,7 @@
                 android:gravity="center_vertical" />
 
             <TextView
-                android:id="@+id/textTulang"
+                android:id="@+id/textOtot"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
@@ -54,9 +54,48 @@
         </RelativeLayout>
     </RelativeLayout>
 
-    <com.github.chrisbanes.photoview.PhotoView
-        android:id="@+id/imgTulang"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="15dp" />
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/btnOtot"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnDepan"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:background="@drawable/dec_border"
+                android:backgroundTint="@color/colorAccent"
+                android:text="Putar"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnBelakang"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:background="@drawable/dec_border"
+                android:backgroundTint="@color/colorAccent"
+                android:text="Putar"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/imgOtot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/btnOtot"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="15dp" />
+    </RelativeLayout>
 </LinearLayout>

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@android:color/white"
     android:orientation="vertical"
-    tools:context=".view.pustaka.ActivityPustaka">
+    tools:context=".view.lainnya.ActivityPustaka">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbarPustaka"
         android:layout_width="match_parent"

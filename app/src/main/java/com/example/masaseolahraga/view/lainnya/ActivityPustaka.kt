@@ -1,4 +1,4 @@
-package com.example.masaseolahraga.view.profil
+package com.example.masaseolahraga.view.lainnya
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,10 +6,10 @@ import android.os.Bundle
 import com.example.masaseolahraga.R
 import com.example.masaseolahraga.view.ActivityUtama
 
-class ActivityProfil : AppCompatActivity() {
+class ActivityPustaka : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_profil)
+        setContentView(R.layout.activity_pustaka)
     }
 
     override fun onBackPressed() {

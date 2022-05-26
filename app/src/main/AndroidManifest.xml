@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".view.tulang.ActivityTulang"
+            android:name=".view.lainnya.ActivityOtot"
+            android:exported="false" />
+        <activity
+            android:name=".view.lainnya.ActivityTulang"
             android:exported="false" />
         <activity
             android:name=".view.teknik.ActivityVideo"
@@ -21,7 +24,7 @@
             android:name=".view.teknik.ActivityTeknik"
             android:exported="false" />
         <activity
-            android:name=".view.profil.ActivityProfil"
+            android:name=".view.lainnya.ActivityProfil"
             android:exported="false" />
         <activity
             android:name=".view.cedera.materi.ActivityPertolongan"
@@ -36,7 +39,7 @@
             android:name=".view.cedera.materi.ActivityJenis"
             android:exported="false" />
         <activity
-            android:name=".view.pustaka.ActivityPustaka"
+            android:name=".view.lainnya.ActivityPustaka"
             android:exported="false" />
         <activity
             android:name=".view.cedera.materi.ActivityTingkat"
