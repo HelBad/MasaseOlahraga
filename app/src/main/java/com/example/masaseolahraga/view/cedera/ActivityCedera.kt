@@ -28,6 +28,7 @@ class ActivityCedera : AppCompatActivity() {
     lateinit var pencegahan2Cedera: ImageView
     lateinit var pencegahan3Cedera: ImageView
     lateinit var pencegahan4Cedera: ImageView
+    lateinit var pencegahan5Cedera: ImageView
 
     @SuppressLint("WrongConstant")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -52,6 +53,7 @@ class ActivityCedera : AppCompatActivity() {
         pencegahan2Cedera = findViewById(R.id.pencegahan2Cedera)
         pencegahan3Cedera = findViewById(R.id.pencegahan3Cedera)
         pencegahan4Cedera = findViewById(R.id.pencegahan4Cedera)
+        pencegahan5Cedera = findViewById(R.id.pencegahan5Cedera)
 
         tingkat1Cedera.setOnClickListener {
             val intent = Intent(this, ActivityTingkat::class.java)
@@ -138,24 +140,30 @@ class ActivityCedera : AppCompatActivity() {
             finish()
         }
         pencegahan1Cedera.setOnClickListener {
-            val intent = Intent(this, ActivityPencegahan::class.java)
+            val intent = Intent(this, ActivityRiceHarm::class.java)
             intent.putExtra("materi", "RICE")
             startActivity(intent)
             finish()
         }
         pencegahan2Cedera.setOnClickListener {
-            val intent = Intent(this, ActivityPencegahan::class.java)
-            intent.putExtra("materi", "Pengobatan Medis")
+            val intent = Intent(this, ActivityRiceHarm::class.java)
+            intent.putExtra("materi", "HARM")
             startActivity(intent)
             finish()
         }
         pencegahan3Cedera.setOnClickListener {
             val intent = Intent(this, ActivityPencegahan::class.java)
-            intent.putExtra("materi", "Fisioterapi")
+            intent.putExtra("materi", "Pengobatan Medis")
             startActivity(intent)
             finish()
         }
         pencegahan4Cedera.setOnClickListener {
+            val intent = Intent(this, ActivityPencegahan::class.java)
+            intent.putExtra("materi", "Fisioterapi")
+            startActivity(intent)
+            finish()
+        }
+        pencegahan5Cedera.setOnClickListener {
             val intent = Intent(this, ActivityPencegahan::class.java)
             intent.putExtra("materi", "Masase")
             startActivity(intent)

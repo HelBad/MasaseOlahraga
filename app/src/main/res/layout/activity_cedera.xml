@@ -331,6 +331,13 @@
                                 android:layout_height="105dp"
                                 android:layout_marginHorizontal="5dp"
                                 android:src="@drawable/img_cedera_pencegahan4" />
+
+                            <ImageView
+                                android:id="@+id/pencegahan5Cedera"
+                                android:layout_width="105dp"
+                                android:layout_height="105dp"
+                                android:layout_marginHorizontal="5dp"
+                                android:src="@drawable/img_cedera_pencegahan5" />
                         </LinearLayout>
                     </ScrollView>
                 </HorizontalScrollView>
