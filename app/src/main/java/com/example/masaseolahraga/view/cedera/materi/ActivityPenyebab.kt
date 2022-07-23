@@ -53,7 +53,7 @@ class ActivityPenyebab : AppCompatActivity() {
     val textPenyebab4 = "Faktor resiko eksternal (sebab-sebab yang berasal dari luar)"
     val textPenyebab5 = "Eksternal violence adalah cedera yang timbul atau terjadi karena pengaruh " +
             "atau sebab yang berasal dari luar, misalnya : 1) Body contact sport : sepak bola, " +
-            "tinju, karate, dan lain-lain. 2) Alat-alat olahraga:stick hockey, bola, raket dan " +
+            "tinju, karate, dan lain-lain. 2) Alat-alat olahraga : stick hockey, bola, raket dan " +
             "lain-lain. 3) Keadaan sekitarnya yang menyebabkan terjadinya cedera seperti : cuaca " +
             "atau keadaan lapangan yang tidak memenuhi persyaratan."
     val textPenyebab6 = "Faktor-faktor penyebab terjadinya cedera olahraga menurut (Congeni, 2004) " +
@@ -78,7 +78,7 @@ class ActivityPenyebab : AppCompatActivity() {
             "pertolongan profesional. Sindrom pemakaian berlebih sering dialami oleh atlet yang " +
             "bermula dari adanya suatu kekuatan yang sedikit berlebihan, tetapi berlangsung " +
             "berulang-ulang dalam jangka waktu lama. Sindrom itu kadang memberi respon yang baik " +
-            "dengan pengobatan sendiri. Sedangkan menurut Widhiyanti (2018:7) penyebab cedera " +
+            "dengan pengobatan sendiri. Sedangkan menurut Widhiyanti (2018 : 7) penyebab cedera " +
             "sebagai berikut :"
     val textPenyebab10 = "Dari dalam (Internal Violence), Cedera yang terjadi karena adanya " +
             "rangsangan atau pengaruh yang berasal dari dalam individu itu sendiri, misalnya :"

@@ -28,10 +28,10 @@ class ActivityPertolongan : AppCompatActivity() {
     lateinit var viewMateriPertolongan8: WebView
     lateinit var viewMateriPertolongan9: WebView
 
-    val textPertolonganKulit1 = "Luka adalah kerusakan struktur atau fungsi tubuh karena paksaaan " +
-            "atau tekanan fisik mupun kimiawi. Luka yang sering terjadi adalah luka lecet " +
-            "(ekskoriasi), robek (laserasi), luka tusuk (punctrum) terpotong maupun terpisahnya " +
-            "kulit. Pertolongan Pertamananya sebagai berikut :"
+    val textPertolonganKulit1 = "Menurut Komang (2018 : 28), Luka adalah kerusakan struktur atau " +
+            "fungsi tubuh karena paksaaan atau tekanan fisik mupun kimiawi. Luka yang sering " +
+            "terjadi adalah luka lecet (ekskoriasi), robek (laserasi), luka tusuk (punctrum) " +
+            "terpotong maupun terpisahnya kulit. Pertolongan Pertamananya sebagai berikut :"
     val textPertolonganKulit2 = "Bersihkan luka dengan hydrogen peroksida (H202) 3%, detol atau " +
             "betadin atau sabun."
     val textPertolonganKulit3 = "Keringkan Luka lalu berikan obat yang menandung antiseptik " +
@@ -42,10 +42,11 @@ class ActivityPertolongan : AppCompatActivity() {
     val textPertolonganKulit6 = "Tinggikan bagian yang luka, lebih tinggi dari letak jantung."
     val textPertolonganKulit7 = "Pada luka terbuka atau tusuk, harus diberi suntikan Anti Tetanus " +
             "serum dan apabila robek lebih dari 1 cm harus dijahit."
-    val textPertolonganOtot1 = "Strain adalah adalah cedera yang terjadi karena regangan berlebihan " +
-            "atau terjadi robekan pada otot maupun tendon karena penggunaan yang berlebihan. Sprain " +
-            "adalah cedera yang terjadi karena regangan berlebihan atau terjadi robekan pada " +
-            "ligamen dan kapsul sendi. Tingkatan Strain, Sprain, dan Pertolongan Pertamannya."
+    val textPertolonganOtot1 = "Menurut Komang (2018 : 28), Strain adalah adalah cedera yang terjadi " +
+            "karena regangan berlebihan atau terjadi robekan pada otot maupun tendon karena " +
+            "penggunaan yang berlebihan. Sprain adalah cedera yang terjadi karena regangan " +
+            "berlebihan atau terjadi robekan pada ligamen dan kapsul sendi. Tingkatan Strain, " +
+            "Sprain, dan Pertolongan Pertamannya."
     val textPertolonganOtot2 = "Strain atau Sprain Derajat I (First Degree Strain or Sprain). " +
             "Cedera yang paling ringan disertai sedikit pembengkakan atau rasa nyeri, dimana cedera " +
             "yang terjadi hanya mengenai beberapa serabut otot, tendon, atau ligament yang robek " +
@@ -61,20 +62,20 @@ class ActivityPertolongan : AppCompatActivity() {
             "atau ligament bahkan bisa robek atau putus total. Penangannanya dengan menggunakan " +
             "metode RICE sesuai urutan lalu dikirim ke rumah sakit untuk mendapatkan penanganan " +
             "lebih lanjut dari ahli medis."
-    val textPertolonganTulang1 = "Patah Tulang merupakan terputusnya tulang pada tubuh, ada dua " +
-            "jenis patah tulang dalam tubuh (fraktur) sebagai berikut : Patah tulang tertutup bila " +
-            "ujung tulang yang patah tidak menembus ke luar kulit, serta Patah tulang terbuka bila " +
-            "ada luka pada kulit yang berhubungan dengan fraktur atau bisa juga ujung-ujung tulang " +
-            "menembus kulit. Penyebab Fraktur sebagai berikut : 1) Kekerasan langsung, karena " +
-            "pukulan atau tendangan yang sifatnya ekstrim. 2) Kekerasan tidak langsung, jatuh dalam " +
-            "posisi tidak benar. 3) Gerakan yang dilakukan tiba-tiba kontraksinya. 4) Karena " +
-            "kelelahan pada tulang, misalnya pada pelari jarak jauh (maraton), hal ini sering " +
-            "menyebabkan retaknya bagian distal dari tulang fibula dan tulang metatarsal kedua. " +
-            "Gejala-gejala patah tulang : adanya reaksi radang setempat yang hebat, terjadinya " +
-            "fungsiolesa, nyeri pada lokasi patah tulang, adanya perubahan bentuk tulang, serta " +
-            "adanya bunyi tulang karena gesekan ujung tulang yang satu dengan ujung tulang yang " +
-            "lainnya yang dapat dirasakan penderita. Adapun pertolongan pertama pada patah tulang " +
-            "sebagai berikut :"
+    val textPertolonganTulang1 = "Menurut Komang (2018 : 28), Patah Tulang merupakan terputusnya " +
+            "tulang pada tubuh, ada dua jenis patah tulang dalam tubuh (fraktur) sebagai berikut : " +
+            "Patah tulang tertutup bila ujung tulang yang patah tidak menembus ke luar kulit, serta " +
+            "Patah tulang terbuka bila ada luka pada kulit yang berhubungan dengan fraktur atau bisa " +
+            "juga ujung-ujung tulang menembus kulit. Penyebab Fraktur sebagai berikut : 1) Kekerasan " +
+            "langsung, karena pukulan atau tendangan yang sifatnya ekstrim. 2) Kekerasan tidak " +
+            "langsung, jatuh dalam posisi tidak benar. 3) Gerakan yang dilakukan tiba-tiba " +
+            "kontraksinya. 4) Karena kelelahan pada tulang, misalnya pada pelari jarak jauh " +
+            "(maraton), hal ini sering menyebabkan retaknya bagian distal dari tulang fibula dan " +
+            "tulang metatarsal kedua. Gejala-gejala patah tulang : adanya reaksi radang setempat " +
+            "yang hebat, terjadinya fungsiolesa, nyeri pada lokasi patah tulang, adanya perubahan " +
+            "bentuk tulang, serta adanya bunyi tulang karena gesekan ujung tulang yang satu dengan " +
+            "ujung tulang yang lainnya yang dapat dirasakan penderita. Adapun pertolongan pertama " +
+            "pada patah tulang sebagai berikut :"
     val textPertolonganTulang2 = "Penderita tidak boleh melanjutkan aktivitas atau kegiatan lagi."
     val textPertolonganTulang3 = "Pertolongan pertama dilakukan reposisi oleh ahli medis secepat " +
             "mungkin dalam waktu 15 menit, karena pada saat itu penderita tidak merasakan nyeri " +
@@ -86,29 +87,30 @@ class ActivityPertolongan : AppCompatActivity() {
             "jaringan di sekitarnya. Kalau ada luka terbuka di area patah tulang yang merobek kulit, " +
             "luka tersebut ditutup dengan kain kasa steril dipasang spalk atau bidai setelah itu " +
             "lakukan metode RICE dan kirim ke rumah sakit terdekat."
-    val textPertolonganSendi1 = "Sendi adalah hubungan antara 2 buah ujung tulang yang berfungsi " +
-            "seperti 2 buah engsel sehingga tulang yang satu dapat bergerak terhadap tulang yang " +
-            "lainnya. Ujung tulang yang tidak terlindung secara berangsur-angsur dapat menjadi haus " +
-            "karena pergesekan dengan tulang rawan yang berhadapan. Cedera yang mungkin terjadi " +
-            "pada sendi adalah cedera pada kapsula artikularis atau simpai sendi. Kapsula " +
-            "artikularis terdiri dari lapisan luar startum fibrosum dan lapisan dalam startum " +
-            "sinovialis yang menghasilkan sendi yang disebut synovia. Bila sendi atau lutut terkena " +
-            "pukulan dan melukai simpati sendi, maka akan menimbulkan keadaan synovitis. Akibatnya " +
-            "akan menimbulkan produksi cairan yang berlebih sehingga menimbulkan pembengkakan pada " +
-            "lutut yang disebut hidrops. Bila cedera lutut merobek simpai sendi sehingga menyebabkan " +
-            "pendarahan (cairan bercampur darah) disebut haemarthros. Adapaun pertolongan pertama " +
-            "pada cedera sendi sebagai berikut :"
+    val textPertolonganSendi1 = "Menurut Komang (2018 : 28), Sendi adalah hubungan antara 2 buah ujung " +
+            "tulang yang berfungsi seperti 2 buah engsel sehingga tulang yang satu dapat bergerak " +
+            "terhadap tulang yang lainnya. Ujung tulang yang tidak terlindung secara berangsur-angsur " +
+            "dapat menjadi haus karena pergesekan dengan tulang rawan yang berhadapan. Cedera yang " +
+            "mungkin terjadi pada sendi adalah cedera pada kapsula artikularis atau simpai sendi. " +
+            "Kapsula artikularis terdiri dari lapisan luar startum fibrosum dan lapisan dalam " +
+            "startum sinovialis yang menghasilkan sendi yang disebut synovia. Bila sendi atau lutut " +
+            "terkena pukulan dan melukai simpati sendi, maka akan menimbulkan keadaan synovitis. " +
+            "Akibatnya akan menimbulkan produksi cairan yang berlebih sehingga menimbulkan " +
+            "pembengkakan pada lutut yang disebut hidrops. Bila cedera lutut merobek simpai sendi " +
+            "sehingga menyebabkan pendarahan (cairan bercampur darah) disebut haemarthros. Adapaun " +
+            "pertolongan pertama pada cedera sendi sebagai berikut :"
     val textPertolonganSendi2 = "Bila terjadi traumatic synovitis, terapkan metode RICE. Kalau " +
             "cederanya ringan maka cukup dengan metode RICE saja dapat diatasi."
     val textPertolonganSendi3 = "Diberikan tahapan-tahapan yang teratur."
     val textPertolonganSendi4 = "Jika pertolongan RICE teryata tidak mengurangi pembengkakan, maka " +
             "sebaiknya dikonsultasikan kepada dokter atau dokter ahli bedah tulang."
-    val textPertolonganFibrositis1 = "Fibrositis adalah istilah yang secara luas digunakan untuk " +
-            "menggambarkan daerah yang sakit yaitu jaringan lunak misalnya otot atau tendon, fasia " +
-            "yang menutupinya, serta jaringan dibawah kulit. Misalnya orang yang sering mengatakan " +
-            "salah bantal atau sakit untuk menoleh. Gerakan sendi yang terganggu biasanya terjadi " +
-            "pada daerah tengkuk, daerah diantara kedua scapula, serta pinggang. Penyebab secara " +
-            "pasti belum jelas, tetapi dapat diperkirakan sebagai berikut :"
+    val textPertolonganFibrositis1 = "Menurut Komang (2018 : 28), Fibrositis adalah istilah yang " +
+            "secara luas digunakan untuk menggambarkan daerah yang sakit yaitu jaringan lunak " +
+            "misalnya otot atau tendon, fasia yang menutupinya, serta jaringan dibawah kulit. " +
+            "Misalnya orang yang sering mengatakan salah bantal atau sakit untuk menoleh. Gerakan " +
+            "sendi yang terganggu biasanya terjadi pada daerah tengkuk, daerah diantara kedua " +
+            "scapula, serta pinggang. Penyebab secara pasti belum jelas, tetapi dapat diperkirakan " +
+            "sebagai berikut :"
     val textPertolonganFibrositis2 = "Terkena angin yang terus menerus dari satu arah."
     val textPertolonganFibrositis3 = "Terkena udara dingin dan lembab dalam waktu yang relatif lama."
     val textPertolonganFibrositis4 = "Otot atau tendon terlalu lelah."
@@ -116,20 +118,20 @@ class ActivityPertolongan : AppCompatActivity() {
     val textPertolonganFibrositis6 = "Adanya local infeksi atau masuknya kuman-kuman penyakit " +
             "melalui lubang-lubang yang tidak terduga, misalnya gigi yang berlubang. Pertolongan " +
             "pertamanya adalah RICE, dan masase."
-    val textPertolonganKuntosio1 = "Memar (kuntosio) adalah cedera yang disebabkan akibat benturan " +
-            "maupun pukulan langsung pada kulit, otot atau tendon sehingga menimbulkan warna " +
-            "kebiru-biruan atau kehitaman. Warna kebiruan terjadi karena penguraian bekuan-bekuan " +
-            "darah terutama hemoglobin, sehingga menimbulkan warna kebiru-biruan (hemosiderin). " +
-            "Pada memar, jaringan dibawah permukaan kulit rusak dan pembuluh darah kecil pecah " +
-            "sehingga darah dan cairan seluler merembes ke jaringan sekitarnya. Hematoma adalah " +
-            "kumpulan darah diluar pembuluh darah pada jaringan dibawah kulit ataupun di antara " +
-            "jaringan kulit. Kadang-kadang hematoma yang mengalami pembengkakan jauh dari tempat " +
-            "cedera. Hal ini disebabkan karena cairan plasma darah itu mengalir ke tempat yang " +
-            "lebih rendah dan berkumpul disana. Pertolongan pertama dapat dilakukan dengan metode " +
-            "RICE, fisioterapi treatment, dan obat-obatan nyeri."
-    val textPertolonganKram1 = "Kram adalah kontraksi yang terus menerus dan berlebihan dari otot " +
-            "atau sekelompok otot yang terjadi secara mendadak dan tanpa disadari. Beberapa " +
-            "penyebab kram sebagai berikut :"
+    val textPertolonganKuntosio1 = "Menurut Komang (2018 : 28), Memar (kuntosio) adalah cedera yang " +
+            "disebabkan akibat benturan maupun pukulan langsung pada kulit, otot atau tendon " +
+            "sehingga menimbulkan warna kebiru-biruan atau kehitaman. Warna kebiruan terjadi karena " +
+            "penguraian bekuan-bekuan darah terutama hemoglobin, sehingga menimbulkan warna kebiru-biruan " +
+            "(hemosiderin). Pada memar, jaringan dibawah permukaan kulit rusak dan pembuluh darah " +
+            "kecil pecah sehingga darah dan cairan seluler merembes ke jaringan sekitarnya. Hematoma " +
+            "adalah kumpulan darah diluar pembuluh darah pada jaringan dibawah kulit ataupun di " +
+            "antara jaringan kulit. Kadang-kadang hematoma yang mengalami pembengkakan jauh dari " +
+            "tempat cedera. Hal ini disebabkan karena cairan plasma darah itu mengalir ke tempat " +
+            "yang lebih rendah dan berkumpul disana. Pertolongan pertama dapat dilakukan dengan " +
+            "metode RICE, fisioterapi treatment, dan obat-obatan nyeri."
+    val textPertolonganKram1 = "Menurut Komang (2018 : 28), Kram adalah kontraksi yang terus menerus " +
+            "dan berlebihan dari otot atau sekelompok otot yang terjadi secara mendadak dan tanpa " +
+            "disadari. Beberapa penyebab kram sebagai berikut :"
     val textPertolonganKram2 = "Pada saat otot-otot mengalami kelelahan dan secara tiba-tiba " +
             "meregang, maka otot tersebut dengan terpaksa akan merangsang secara penuh."
     val textPertolonganKram3 = "Ketidaksempurnaan biomekanika tubuh karena adanya ketidaksejajaran " +
@@ -145,9 +147,9 @@ class ActivityPertolongan : AppCompatActivity() {
             "kaki dorsofleksi 90 derajat dengan otot lurus. Jangan sentakan kaki ke atas karena hal " +
             "ini dapat menimbulkan cedera yang lebih parah pada otot yang terkena."
     val textPertolonganKram9 = "Lakukan gerakan masase."
-    val textPertolonganDislokasi1 = "Dislokasi adalah perpindahan permukaan tulang-tulang yang " +
-            "membentuk sendi sehingga tulang-tulang tersebut tidak berhadapan lagi. Tanda–tanda " +
-            "terjadinya dislokasi :"
+    val textPertolonganDislokasi1 = "Menurut Komang (2018 : 28), Dislokasi adalah perpindahan " +
+            "permukaan tulang-tulang yang membentuk sendi sehingga tulang-tulang tersebut tidak " +
+            "berhadapan lagi. Tanda–tanda terjadinya dislokasi :"
     val textPertolonganDislokasi2 = "Terjadinya perubahan bentuk (deformitas) pada sendi yang " +
             "mengalami dislokasi."
     val textPertolonganDislokasi3 = "Nyeri yang hebat bila melakukan gerakan sendi yang normal " +

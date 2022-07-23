@@ -29,7 +29,7 @@ class ActivityUtama : AppCompatActivity() {
 
     lateinit var viewpagerUtama : ViewPager
     var path : IntArray = intArrayOf(R.drawable.img_foto_1, R.drawable.img_foto_2,
-        R.drawable.img_foto_3, R.drawable.img_foto_4)
+        R.drawable.img_foto_3, R.drawable.img_foto_4, R.drawable.img_foto_5, R.drawable.img_foto_6)
     lateinit var adapter : ViewpagerImgslider
     var currentPage : Int = 0
     lateinit var timer : Timer

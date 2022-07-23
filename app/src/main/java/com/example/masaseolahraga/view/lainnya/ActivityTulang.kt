@@ -31,7 +31,7 @@ class ActivityTulang : AppCompatActivity() {
                 textTulang.text = listTulang[position]
 
                 if(listTulang[position] == "Seluruh Badan") {
-                    imgTulang.setImageResource(R.drawable.img_tulang_rangka)
+                    imgTulang.setImageResource(R.drawable.img_tulang_badan)
                 } else if(listTulang[position] == "Kepala") {
                     imgTulang.setImageResource(R.drawable.img_tulang_kepala)
                 } else if(listTulang[position] == "Leher") {

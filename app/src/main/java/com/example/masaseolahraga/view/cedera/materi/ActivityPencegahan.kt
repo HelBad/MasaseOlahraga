@@ -12,15 +12,15 @@ class ActivityPencegahan : AppCompatActivity() {
 
     val textPencegahan3 = "Penanganan medis menggunakan obat-obatan banyak dipergunakan dalam " +
             "penatalaksanaan cedera olahraga yang bertujuan mengurangi nyeri atau peradangan. " +
-            "Menurut Giam (1992: 164) obat-obatan yang dipergunakan dalam penatalaksanaan cedera " +
+            "Menurut Giam (1992 : 164) obat-obatan yang dipergunakan dalam penatalaksanaan cedera " +
             "olahraga dapat dibagi kedalam golongan yang diberikan pada kulit (topikal), yang " +
             "diberikan secara oral dan yang melalui suntikan. Sedangkan penanganan menggunakan " +
             "pembedahan (operasi) cukup jarang dilakukan jika cedera yang dialami benar-benar parah " +
             "dan tidak dapat tertolong menggunakan cara-cara pengobatan lain."
     val textPencegahan4 = "Fisioterapi dapat diartikan sebagai penggunaan sarana atau media terapi " +
             "untuk menghasilkan suatu respon penyembuhan dan rehablitasi pada cedera ataupun " +
-            "masalah-masalah medis lain yang berhubungan dengan olahraga (Giam, 1992: 167)."
-    val textPencegahan5 = "Menurut Giam (1992: 167) masase adalah manipulasi jaringan lunak tubuh. " +
+            "masalah-masalah medis lain yang berhubungan dengan olahraga (Giam, 1992 : 167)."
+    val textPencegahan5 = "Menurut Giam (1992 : 167) masase adalah manipulasi jaringan lunak tubuh. " +
             "Manipulasi ini paling efektif dilakukan dengan tangan dan dilakukan dengan tujuan agar " +
             "mempunyai pengaruh pada sistem syaraf, otot, dan pernapasan sirkulasi darah dan limfe " +
             "secara lokal maupun umum. Massage tidak boleh dilakukan sebelum 14 jam dari cedera, " +

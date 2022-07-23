@@ -16,7 +16,7 @@ class ActivityRiceHarm : AppCompatActivity() {
     lateinit var viewMateriRiceharm4: WebView
     lateinit var viewMateriRiceharm5: WebView
 
-    val textRice1 = "Asep (2013: 47) menjelaskan RICE merupakan tindakan penanganan dini cedera " +
+    val textRice1 = "Asep (2013 : 47) menjelaskan RICE merupakan tindakan penanganan dini cedera " +
             "olahraga yang berupa rest pemberian waktu istirahat yang diberikan pada seseorang yang " +
             "mengalami cedera. Ice merupakan tindakan pemberian es pada bagian yang mengalami cedera " +
             "berguna untuk vasokontriks. Compression merupakan pemberian tekanan ringan pada tubuh " +

@@ -10,6 +10,7 @@ import com.example.masaseolahraga.view.ActivityUtama
 import com.example.masaseolahraga.view.cedera.materi.*
 
 class ActivityCedera : AppCompatActivity() {
+    lateinit var strainCedera: ImageView
     lateinit var tingkat1Cedera: ImageView
     lateinit var tingkat2Cedera: ImageView
     lateinit var tingkat3Cedera: ImageView
@@ -35,6 +36,7 @@ class ActivityCedera : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cedera)
 
+        strainCedera = findViewById(R.id.strainCedera)
         tingkat1Cedera = findViewById(R.id.tingkat1Cedera)
         tingkat2Cedera = findViewById(R.id.tingkat2Cedera)
         tingkat3Cedera = findViewById(R.id.tingkat3Cedera)
@@ -55,6 +57,12 @@ class ActivityCedera : AppCompatActivity() {
         pencegahan4Cedera = findViewById(R.id.pencegahan4Cedera)
         pencegahan5Cedera = findViewById(R.id.pencegahan5Cedera)
 
+        strainCedera.setOnClickListener {
+            val intent = Intent(this, ActivityStrain::class.java)
+            intent.putExtra("materi", "Strain")
+            startActivity(intent)
+            finish()
+        }
         tingkat1Cedera.setOnClickListener {
             val intent = Intent(this, ActivityTingkat::class.java)
             intent.putExtra("materi", "Tingkat I")
